@@ -1,0 +1,316 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+}
+.landing-grid { 
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.projects{
+  padding-top: 120px;
+  overflow: scroll;
+}
+.projects-grid {
+  display: flex;
+  padding-top: 30px;
+}
+
+
+
+/* Navbar */
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img {
+	object-fit: cover;
+}
+p {
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: .05rem;
+}
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+
+/* Resume Page css */
+.resume{
+	padding-top: 120px !important;
+}
+.resume-right-col {
+  background: #5a4b42;
+  color: white;
+  padding-top: 100px;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  overflow: scroll;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+/* contact page css */
+
+
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: calc(4vw + 30px);
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  
+  margin:  auto ;
+  max-width: 50%;
+  text-align: center;
+}
+@media only screen and (max-width: 650px) {
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    
+    margin:  auto ;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+.social-links i {
+  color: white;
+  font-size: calc(4vw + 20px);
+  padding: 8px;
+}
+
+.abut_img img{
+  padding-left: 20px;
+  height: 400px;
+}
+.react-img{
+  background-image: url('./images/react-1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.java_school{
+  background-image: url('./images/java.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nodejs_pro{
+  background-image: url('./images/node.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.txt_blck{
+  color: rgb(99, 99, 99) !important;
+}
+.cpp{
+  background-image: url('./images/cpp.png');
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+
+
+
+.ach_hero{
+background-image: url('./images/IMG_6094.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+.ach_hero h1{
+	padding-top: 40px;
+	color: white;
+	text-align: center;
+}
+.ach_hero-2 p{
+	margin-left: 30px;
+	font-size: 22px;
+}
+
+/* achievement */
+
+.im1{
+	background-image: url('./images/im1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .im2{
+	background-image: url('./images/im2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .im3{
+	background-image: url('./images/im3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .im4{
+	background-image: url('./images/im4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .im5{
+	background-image: url('./images/im5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .im6{
+	background-image: url('./images/im6.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .im7{
+	background-image: url('./images/im7.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .im8{
+	background-image: url('./images/im8.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .cards{
+	text-align: center;
+  }
+
+  .WORKSHOP{
+	  text-align: center;
+	  color: white;
+	  background-color:crimson;
+  }
+
+  .i1{
+	background-image: url('./images/i1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .i2{
+	background-image: url('./images/i2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .i3{
+	background-image: url('./images/i3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .i4{
+	background-image: url('./images/i4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .i5{
+	background-image: url('./images/i5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .i6{
+	background-image: url('./images/i6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .i7{
+	background-image: url('./images/i7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+  .i8{
+	background-image: url('./images/i8.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+  }
+
+  .educa p, .expr p{
+	  color: white !important;
+  }
